@@ -9,3 +9,5 @@ print("The set for A or B is ", A | B)
 print ("The set for A and B is ", A & B)
 print ("The set for A minus B is ", A - B)
 print ("The set for B minus A is ", B - A)
+
+print("Question 2")
