@@ -11,3 +11,5 @@ print ("The set for A minus B is", A - B)
 print ("The set for B minus A is", B - A)
 
 print("Question 2")
+E = {2*n for n in range(0,51)}
+print(E)
