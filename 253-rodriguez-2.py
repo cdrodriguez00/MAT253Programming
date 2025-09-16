@@ -13,3 +13,7 @@ print ("The set for B minus A is", B - A)
 print("Question 2")
 E = {2*n for n in range(0,51)}
 print(E)
+
+print("Question 3")
+F = {n % 2 == 0 for n in range(0, 101)}
+print(F)
