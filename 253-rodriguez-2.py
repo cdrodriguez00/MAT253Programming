@@ -19,4 +19,6 @@ F = {n % 2 == 0 for n in range(0, 101)}
 print(F)
 
 print("Question 4")
+print("Checking if E is a subset of F and if F is a subset of E")
 print(E == F)
+print (F ==E)
