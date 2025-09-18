@@ -15,7 +15,7 @@ E = {2*n for n in range(0,51)}
 print(E)
 
 print("Question 3")
-F = {n % 2 == 0 for n in range(0, 101)}
+F = {n for n in range(101) if n % 2 == 0}
 print(F)
 
 print("Question 4")
