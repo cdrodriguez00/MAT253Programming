@@ -11,11 +11,11 @@ print("The set for A minus B is", A - B)   # set A minus B
 print("The set for B minus A is", B - A)   # set B minus A
 
 print("Question 2")
-E = {2*n for n in range(0, 51)}
+E = {2*n for n in range(0, 51)}   # creates a set E for all even numbers from 0 to 100
 print("The set E is", E)
 
 print("Question 3")
-F = {n for n in range(101) if n % 2 == 0}
+F = {n for n in range(101) if n % 2 == 0}   # # creates a set F for all even numbers from 0 to 100
 print("The set F is", F)
 
 print("Question 4")
