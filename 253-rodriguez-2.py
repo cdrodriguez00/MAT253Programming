@@ -20,5 +20,7 @@ print(F)
 
 print("Question 4")
 print("Checking if E is a subset of F and if F is a subset of E")
+print("Is set E equal to set F?")
 print(E == F)
+print("is set F equal to set E?")
 print(F == E)
