@@ -19,10 +19,10 @@ F = {n for n in range(101) if n % 2 == 0}   # # creates a set F for all even num
 print("The set F is", F)
 
 print("\nQuestion 4")
-print("Checking if E is a subset of F and if F is a subset of E")
+print("Checking if E is equivalent to set F and if F is equivalent to set E")
 print("Is set E equal to set F?")
 print(E == F)
-print("is set F equal to set E?")
+print("Is set F equal to set E?")
 print(F == E)
 
 if (E == F) == (F == E):
