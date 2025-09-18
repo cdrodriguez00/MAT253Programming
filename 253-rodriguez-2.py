@@ -12,11 +12,11 @@ print("The set for B minus A is", B - A)   # set B minus A
 
 print("Question 2")
 E = {2*n for n in range(0, 51)}
-print(E)
+print("The set E is", E)
 
 print("Question 3")
 F = {n for n in range(101) if n % 2 == 0}
-print(F)
+print("The set F is", F)
 
 print("Question 4")
 print("Checking if E is a subset of F and if F is a subset of E")
