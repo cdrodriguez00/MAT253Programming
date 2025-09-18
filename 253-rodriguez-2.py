@@ -6,12 +6,12 @@ print("The Set for A is", A)
 B = {2, 4, 6, 8, 10, 12, 14, 16}   # creating a set B
 print("The Set for B is", B)
 print("The set for A or B is", A | B)  # set A or set B
-print ("The set for A and B is", A & B)   # set A and set B
-print ("The set for A minus B is", A - B)   # set A minus B
-print ("The set for B minus A is", B - A)   # set B minus A
+print("The set for A and B is", A & B)   # set A and set B
+print("The set for A minus B is", A - B)   # set A minus B
+print("The set for B minus A is", B - A)   # set B minus A
 
 print("Question 2")
-E = {2*n for n in range(0,51)}
+E = {2*n for n in range(0, 51)}
 print(E)
 
 print("Question 3")
@@ -24,3 +24,6 @@ print("Is set E equal to set F?")
 print(E == F)
 print("is set F equal to set E?")
 print(F == E)
+
+if (E == F) == (F == E):
+    print("Sets E and F are the same set.")
