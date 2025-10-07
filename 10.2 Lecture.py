@@ -32,3 +32,16 @@ def volume(width, length, height):
 
 # learned how to define functions and doc strings
 
+# 1 on P3
+def triangular(n):
+    '''write doc string '''
+    t = n*(n+1)//2 # // for integer division
+    return t
+
+# question 2 on p3
+def sumupto(n):
+    '''write doc string'''
+    total = 0
+    for i in range(1, n+1):
+        total += i # total = total + i is also equivalent
+        return total
