@@ -55,4 +55,11 @@ def sumpower(n, k):
         return total
 
 for n in range(1,101):
-    print('n = ', n,'S_n = ', sumupto(n), "T_n = ", triangular(n))
+    print('n = ', n, 'S_n = ', sumupto(n), "T_n = ", triangular(n))
+
+import math
+
+math.pi # gives pi value
+
+p = math.pi
+p** 2/6
