@@ -45,3 +45,14 @@ def sumupto(n):
     for i in range(1, n+1):
         total += i # total = total + i is also equivalent
         return total
+
+# question 3 on p3
+def sumpower(n, k):
+    '''write doc string'''
+    total = 0
+    for i in range(1, n+1):
+        total += i**k # total = total + i**7 is also equivalent
+        return total
+
+for n in range(1,101):
+    print('n = ', n,'S_n = ', sumupto(n), "T_n = ", triangular(n))
