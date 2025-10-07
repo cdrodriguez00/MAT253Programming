@@ -19,3 +19,23 @@ def triangular(n):
 
 for n in range(1, 101):
     print('n = ', n, 'S_n = ', sumupto(n), "T_n = ", triangular(n))
+
+
+print("Question 4")
+def sumpower(n, k):
+    """"write doc string"""
+    total = 0
+    for i in range(1, n+1):
+        total += i**k  # total = total + i**7 is also equivalent
+        return total
+
+print(sumpower(2024, 5))
+
+print("Question 5")
+print(sumpower(100, -2))
+
+print("Question 6")
+print(sumpower(500, -2))
+print(sumpower(5000, -2))
+print(sumpower(50000, -2))
+
