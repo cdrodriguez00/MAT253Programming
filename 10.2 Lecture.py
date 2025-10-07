@@ -28,4 +28,7 @@ def volume(width, length, height):
     # cannot be called outside the function
 
 # doc string can show what makes up function - also the help command on the function
+# doc string required for function we have to write
+
+# learned how to define functions and doc strings
 
