@@ -1,20 +1,27 @@
 print("P3: Functions")
 
-print("Question 1")
-
-
 def sumupto(n):
     """write doc string"""
     total = 0
     for i in range(1, n+1):
         total += i  # total = total + i is also equivalent
-        return total
+    return total
 
 
 def triangular(n):
     """write doc string """
     t = n*(n+1)//2  # // for integer division
     return t
+
+def sumpower(n, k):
+    """"write doc string"""
+    total = 0
+    for i in range(1, n+1):
+        total += i**k  # total = total + i**k is also equivalent
+    return total
+
+print("Question 1")
+
 
 
 for n in range(1, 101):
@@ -29,14 +36,8 @@ for m in range(1, 20):
 
 
 print("Question 4")
-def sumpower(n, k):
-    """"write doc string"""
-    total = 0
-    for i in range(1, n+1):
-        total += i**k  # total = total + i**7 is also equivalent
-        return total
 
-print(sumpower(100, 7))
+print("the sumpower of (100,7) is", sumpower(100, 7))
 
 print(sumpower(2024, 5))
 
