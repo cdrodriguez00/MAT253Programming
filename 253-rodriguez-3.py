@@ -3,7 +3,7 @@ print("P3: Functions")
 def sumupto(n):
     """write doc string"""
     total = 0
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         total += i  # total = total + i is also equivalent
     return total
 
