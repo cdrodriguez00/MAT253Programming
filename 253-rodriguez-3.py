@@ -69,7 +69,7 @@ print("Question 5")
 print(sumpower(100, -2))
 
 print("Question 6")
-print(sumpower(500, -2))
-print(sumpower(5000, -2))
-print(sumpower(50000, -2))
+print("The sumpower of (500, -2) is", sumpower(500, -2))
+print("The sumpower of (5000, -2) is", sumpower(5000, -2))
+print("The sumpower of (50000, -2) is", sumpower(50000, -2))
 
