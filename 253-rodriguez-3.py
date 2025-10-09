@@ -57,12 +57,11 @@ for m in range(1, 20):
     sumT = triangular(m) + triangular(m-1)
     print(sumT)
 
-
 print("Question 4")
-print("the power sum of (2024, 5) is",sumpower(2024, 5))
+print("The power sum of (2024, 5) is", sumpower(2024, 5))
 
 print("Question 5")
-print(sumpower(100, -2))
+print("sumpower(100, -2) computes the sum of the range of numbers from 1 to 100 + 1 to the -2 power. ")
 
 print("Question 6")
 print("The power sum of (500, -2) is", sumpower(500, -2))
