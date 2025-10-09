@@ -77,5 +77,5 @@ print("The power sum of (50000, -2) is", sumpower(50000, -2))
 
 print("(Pi**2)/6 is approximately", (math.pi**2)/6)
 
-print("it is reasonable to assume the power sum of 1 to infinity to the power of -2 is (pi**2)/6 because as the \n "
-      "power sum of n goes higher and higher, the closer it gets to this value.")
+print("it is reasonable to assume the power sum of 1 to infinity to the power of -2 is (pi**2)/6 because as \n "
+      "n goes higher and higher, the closer the power sum gets to this value.")
