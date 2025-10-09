@@ -1,3 +1,5 @@
+import math
+
 print("P3: Functions")
 
 def sumupto(n):
@@ -30,7 +32,7 @@ def triangular(n):
     return t
 
 def sumpower(n, k):
-    """"
+    """
     Calculates and returns the sum of n powers over the range 1 to n+1.
 
     Args:
@@ -69,10 +71,7 @@ print("The power sum of (500, -2) is", sumpower(500, -2))
 print("The power sum of (5000, -2) is", sumpower(5000, -2))
 print("The power sum of (50000, -2) is", sumpower(50000, -2))
 
-import math
 print("(Pi**2)/6 is approximately", (math.pi**2)/6)
 
-print("it is reasonable to assume the power sum of 1 to infinity to the power of -2 is (pi**2)/6 because as the sumpower \n "
-      "of n goes higher and higher, the closer it gets to this value.")
-
-
+print("it is reasonable to assume the power sum of 1 to infinity to the power of -2 is (pi**2)/6 because as the \n "
+      "sumpower of n goes higher and higher, the closer it gets to this value.")
