@@ -50,7 +50,7 @@ for n in range(1, 101):
     print('n = ', n, 'S_n = ', sumupto(n), "T_n = ", triangular(n))
 
 print("Question 2")
-print("")
+print("My conjecture is that the power sum of 1 to n + 1 is equivalent to the triangular value of n.")
 
 print("Question 3")
 for m in range(1, 20):
