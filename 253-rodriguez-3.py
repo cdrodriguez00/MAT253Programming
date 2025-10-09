@@ -62,7 +62,7 @@ for n in range(1, 20):
     sumT = triangular(n) + triangular(n-1)
     print(sumT)
 print("My conjecture for the relationship between n, triangular(n), and triangular(n-1) is \n"
-      " the sum of the triangular(n) and triangular(n-1) for an integer n is n**2.")
+      "that the sum of the triangular(n) and triangular(n-1) for an integer n is n**2.")
 
 print("Question 4")
 print("The power sum of (2024, 5) is", sumpower(2024, 5))
