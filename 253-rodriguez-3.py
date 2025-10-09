@@ -1,7 +1,15 @@
 print("P3: Functions")
 
 def sumupto(n):
-    """write doc string"""
+    """
+    Calculates the sum of a range of numbers
+
+    Args:
+        n: a positive integer n
+
+    Returns:
+        The sum of numbers in the range 1 to n + 1.
+    """
     total = 0
     for i in range(1, n + 1):
         total += i  # total = total + i is also equivalent
@@ -9,7 +17,11 @@ def sumupto(n):
 
 
 def triangular(n):
-    """write doc string """
+    """
+    Calculates and returns the nth triangularr number
+    :param n:
+    :return:
+    """
     t = n*(n+1)//2  # // for integer division
     return t
 
@@ -21,8 +33,6 @@ def sumpower(n, k):
     return total
 
 print("Question 1")
-
-
 
 for n in range(1, 101):
     print('n = ', n, 'S_n = ', sumupto(n), "T_n = ", triangular(n))
@@ -42,6 +52,7 @@ print("the sumpower of (100,7) is", sumpower(100, 7))
 print(sumpower(2024, 5))
 
 print("Question 5")
+
 print(sumpower(100, -2))
 
 print("Question 6")
