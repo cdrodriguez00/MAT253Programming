@@ -48,6 +48,8 @@ def sumpower(n, k):
     return total
 
 print("Question 1")
+print("I will use a for loop for n in range 1 to 101 to calculate the sumupto \n"
+      "and triangular number for each n and print them.")
 for n in range(1, 101):
     print('n = ', n, 'S_n = ', sumupto(n), "T_n = ", triangular(n))
 
@@ -55,10 +57,12 @@ print("Question 2")
 print("My conjecture is that the power sum of 1 to n + 1 is equivalent to the triangular value of n.")
 
 print("Question 3")
+print("I will calculate the sum of the triangular(n) and triangular(n-1) for the range 1-20 for n.")
 for n in range(1, 20):
     sumT = triangular(n) + triangular(n-1)
     print(sumT)
-print("The sum of the triangular(n) and triangular(n-1) for an integer n is n**2.")
+print("My conjecture for the relationship between n, triangular(n), and triangular(n-1) is \n"
+      " the sum of the triangular(n) and triangular(n-1) for an integer n is n**2.")
 
 print("Question 4")
 print("The power sum of (2024, 5) is", sumpower(2024, 5))
