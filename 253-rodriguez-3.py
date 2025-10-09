@@ -59,17 +59,20 @@ for m in range(1, 20):
 
 
 print("Question 4")
-
-print("the sumpower of (100,7) is", sumpower(100, 7))
-
-print(sumpower(2024, 5))
+print("the sumpower of (2024, 5) is",sumpower(2024, 5))
 
 print("Question 5")
-
 print(sumpower(100, -2))
 
 print("Question 6")
 print("The sumpower of (500, -2) is", sumpower(500, -2))
 print("The sumpower of (5000, -2) is", sumpower(5000, -2))
 print("The sumpower of (50000, -2) is", sumpower(50000, -2))
+
+import math
+print("(Pi**2)/6 is approximately", (math.pi**2)/6)
+
+print("it is reasonable to assume the power sum of 1 to infinity to the power of -2 is (pi**2)/6 because as the sumpower \n "
+      "of n goes higher and higher, the closer it gets to this value.")
+
 
