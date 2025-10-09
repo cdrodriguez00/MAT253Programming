@@ -46,10 +46,11 @@ def sumpower(n, k):
     return total
 
 print("Question 1")
-
 for n in range(1, 101):
     print('n = ', n, 'S_n = ', sumupto(n), "T_n = ", triangular(n))
 
+print("Question 2")
+print("")
 
 print("Question 3")
 for m in range(1, 20):
@@ -57,17 +58,16 @@ for m in range(1, 20):
     print(sumT)
 
 
-
 print("Question 4")
-print("the sumpower of (2024, 5) is",sumpower(2024, 5))
+print("the power sum of (2024, 5) is",sumpower(2024, 5))
 
 print("Question 5")
 print(sumpower(100, -2))
 
 print("Question 6")
-print("The sumpower of (500, -2) is", sumpower(500, -2))
-print("The sumpower of (5000, -2) is", sumpower(5000, -2))
-print("The sumpower of (50000, -2) is", sumpower(50000, -2))
+print("The power sum of (500, -2) is", sumpower(500, -2))
+print("The power sum of (5000, -2) is", sumpower(5000, -2))
+print("The power sum of (50000, -2) is", sumpower(50000, -2))
 
 import math
 print("(Pi**2)/6 is approximately", (math.pi**2)/6)
