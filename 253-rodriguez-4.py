@@ -20,5 +20,14 @@ def hailstone(n):
     collatz.append(n)
     return collatz
 
+print("Problem 1")
+
+
+
+print("Problem 2")
+
+
+print("Problem 3")
+
 
 
