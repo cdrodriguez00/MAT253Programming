@@ -8,6 +8,7 @@ def hailstone(n):
     sequence terminates at 1
     function(n) if n is even, n = n/2
     if n is odd, n= 3n+1
+    collatz as name of sequence
     """
     collatz = [n]
 
@@ -16,7 +17,7 @@ def hailstone(n):
             n =  n//2
         elif n%2 != 0:
             n = 3*n+2
-
+    collatz.append(n)
     return collatz
 
 
