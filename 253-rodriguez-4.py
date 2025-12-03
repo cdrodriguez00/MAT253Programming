@@ -7,4 +7,10 @@ def hailstone(n):
     first value
     sequence terminates at 1
     """
+    if n%2 = 0:
+        n/2
+    elif n%2 != 0:
+        3n+2
+
+
 
