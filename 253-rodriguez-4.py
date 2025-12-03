@@ -21,13 +21,17 @@ def hailstone(n):
     return collatz
 
 print("Problem 1")
-
+print("Compute the hailstone sequence for 1")
 
 
 print("Problem 2")
+print("Compute the hailstone sequence for 27")
+
 
 
 print("Problem 3")
+print("Which positive integer n <= 20,000 has the longest hailstone sequence? How long is the /n"
+      "hailstone sequence of this integer?")
 
 
 
