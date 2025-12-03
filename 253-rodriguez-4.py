@@ -22,11 +22,11 @@ def hailstone(n):
 
 print("Problem 1")
 print("Compute the hailstone sequence for 1")
-
+hailstone(1)
 
 print("Problem 2")
 print("Compute the hailstone sequence for 27")
-
+hailstone(27)
 
 
 print("Problem 3")
