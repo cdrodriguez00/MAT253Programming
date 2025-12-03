@@ -34,6 +34,7 @@ print("Problem 3")
 print("Which positive integer n <= 20,000 has the longest hailstone sequence? How long is the \n"
       "hailstone sequence of this integer?")
 
+"creates a longest length and longest n variable that updates for longest length and highest n for the loop"
 longest_length = 0
 longest_n = 1
 
